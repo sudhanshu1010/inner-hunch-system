@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --app-bg-color: #F9FAFB;
+    --app-primary-btn-bg: #F5796D;
+    --app-seconday-btn-bg: none;
+    --app-heading-size: 24px;
+    --app-subheading-size: 18px;
+    --app-darkGreen-color: #00584C;
+    --app-lightGreen-color: #4C8A81;
+    --app-container-bg: #FFFFFF;
+    --app-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: #F9FAFB;
+    box-sizing: border-box;
+}
