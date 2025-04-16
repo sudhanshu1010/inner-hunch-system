@@ -1,5 +1,5 @@
 
-package com.example.demo;
+package com.ih.innerhunch;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 @RequestMapping("/api")
-public class HelloController {
+public class MainController {
 
     @GetMapping("/hello")
     public String sayHello() {
