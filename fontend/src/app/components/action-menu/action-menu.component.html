@@ -1,0 +1,19 @@
+<div class="action-main-container">
+    <div class="btn-container">
+        <button (click)="createIhPost()" class="ih-primary-btn" type="button">Post</button>
+    </div>
+    <div class="notification-container">
+        <img src="../../../../../assets/icons/notifications.svg" alt="Notifications"/>
+    </div>
+    <div class="profile-container">
+        <img src="../../../../../assets/icons/person.svg" alt="Person"/>
+    </div>
+    <div class="menu-container" (click)="toggleHamburger()">
+        <img src="../../../../../assets/icons/hamburger.svg" alt="Notifications"/>
+        <div class="dropdown-content" id="hamburger-menu" *ngIf="isHamburgerVisible">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</div>
