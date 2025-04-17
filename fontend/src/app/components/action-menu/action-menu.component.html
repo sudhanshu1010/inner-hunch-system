@@ -1,9 +1,11 @@
 <div class="action-main-container">
     <div class="btn-container">
-        <button (click)="createIhPost()" class="ih-primary-btn" type="button">Post</button>
+        <a class="ih-primary-btn" routerLink="/post-content">Post</a> 
+        <!-- <button (click)="createIhPost()" class="ih-primary-btn" type="button">Post</button> -->
     </div>
     <div class="notification-container">
         <img src="../../../../../assets/icons/notifications.svg" alt="Notifications"/>
+        <div class="notification-status" *ngIf="isNotificationAvailable"></div>
     </div>
     <div class="profile-container">
         <img src="../../../../../assets/icons/person.svg" alt="Person"/>

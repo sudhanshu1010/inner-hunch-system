@@ -7,8 +7,11 @@ import { Component } from '@angular/core';
   templateUrl: './action-menu.component.html',
   styleUrl: './action-menu.component.css'
 })
+
 export class ActionMenuComponent {
   isHamburgerVisible = false;
+  isNotificationAvailable = true;
+
   public createIhPost(){
     console.log("hi from create ih post");
   }
