@@ -1,0 +1,75 @@
+.action-main-container {
+    height: 100%;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-main-container > * {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.notification-container {
+    cursor: pointer;
+}
+
+.profile-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: var(--app-lightgrey);
+}
+
+.profile-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center right;
+}
+
+.menu-container {
+    height: 100%;
+    width: 32px;
+    position: relative;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--app-container-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--app-box-shadow);
+}
+
+.dropdown-content a {
+    height: 20px;
+    width: 160px;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--app-lightgrey);
+} 
+
+.menu-container .dropdown-content {
+    position: absolute;
+    right: -10px;
+    top: 150%;
+}
+
+.menu-container img {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-container img:hover {
+    background-color: var(--app-lightgrey);
+}

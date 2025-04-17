@@ -1,0 +1,17 @@
+.searchbar-main-container {
+    height: 100%;
+    width: auto;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.searchbar-main-container input {
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0px 10px;
+}
