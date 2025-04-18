@@ -3,14 +3,14 @@ import { Component, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { RouterOutlet } from '@angular/router';
+import { FeedComponent } from './components/feed/feed.component';
 
 @Component({
   selector: 'app-root',
   imports: [CommonModule, 
     NavbarComponent, 
     DashboardComponent,
-    RouterOutlet
+    FeedComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
