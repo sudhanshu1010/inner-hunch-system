@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.navbar-logo-container a {
+    cursor: pointer;
+}
+
 .navbar-search-container {
     position: absolute;
     left: 50%;
