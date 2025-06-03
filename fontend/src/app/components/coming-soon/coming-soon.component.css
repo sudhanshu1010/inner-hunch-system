@@ -23,7 +23,12 @@
     font-family: 'Poppins', sans-serif;
     color: #dbdbdb;
     box-sizing: border-box;
-    padding: 5%;
+    padding: 3% 5%;
+}
+
+.content-container .logo {
+    height: 20px;
+    width: auto;
 }
 
 .content-container .highlight-text {
@@ -63,6 +68,10 @@
     width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .content-container h1 {
+    font-size: 56px;
   }
 }
