@@ -4,15 +4,21 @@ import { HttpClient } from '@angular/common/http';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FeedComponent } from './components/feed/feed.component';
+
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
+
 
 @Component({
   selector: 'app-root',
   imports: [CommonModule, 
     NavbarComponent, 
     DashboardComponent,
+
     FeedComponent,
     ComingSoonComponent
+
+    FeedComponent
+
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
