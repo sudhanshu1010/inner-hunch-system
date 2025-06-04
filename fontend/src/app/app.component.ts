@@ -13,12 +13,9 @@ import { ComingSoonComponent } from './components/coming-soon/coming-soon.compon
   imports: [CommonModule, 
     NavbarComponent, 
     DashboardComponent,
-
     FeedComponent,
-    ComingSoonComponent
-
+    ComingSoonComponent,
     FeedComponent
-
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
