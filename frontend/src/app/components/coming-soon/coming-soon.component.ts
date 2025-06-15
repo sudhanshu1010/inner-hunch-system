@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-coming-soon',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './coming-soon.component.css'
 })
 export class ComingSoonComponent {
+  constructor(private router: Router) {}
 
+  goToArticles() {
+    this.router.navigate(['/articles']);
+  }
 }

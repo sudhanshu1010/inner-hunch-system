@@ -6,16 +6,19 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FeedComponent } from './components/feed/feed.component';
 
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
+import { RouterModule } from '@angular/router';
 
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [CommonModule, 
     NavbarComponent, 
     DashboardComponent,
     FeedComponent,
     ComingSoonComponent,
-    FeedComponent
+    FeedComponent,
+    RouterModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

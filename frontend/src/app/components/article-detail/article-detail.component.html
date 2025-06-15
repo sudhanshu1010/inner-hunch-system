@@ -1,0 +1,13 @@
+<div class="article-detail-main-container">
+    <div *ngIf="article; else notFound">
+        <h2>{{ article.title }}</h2>
+        <p><strong>By:</strong> {{ article.author }} | <em>{{ article.date }}</em></p>
+        <hr />
+        <p>{{ article.summary }}</p>
+    </div>
+
+    <ng-template #notFound>
+        <p>Article not found. Please check the URL.</p>
+    </ng-template>
+
+</div>

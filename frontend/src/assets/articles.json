@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "slug": "angular-standalone-routing",
+    "title": "Angular 19: Standalone Routing Made Easy",
+    "summary": "By 55,000 years ago, the first modern humans, or Homo sapiens, had arrived on the Indian subcontinent from Africa.[26][27][28] The earliest known modern human remains in South Asia date to about 30,000 years ago.[26] After 6500 BCE, evidence for domestication of food crops and animals, construction of permanent structures, and storage of agricultural surplus appeared in Mehrgarh and other sites in Balochistan, Pakistan.[84] These gradually developed into the Indus Valley Civilisation,[85][84] the first urban culture in South Asia,[86] which flourished during 2500–1900 BCE in Pakistan and western India.[87] Centred around cities such as Mohenjo-daro, Harappa, Dholavira, and Kalibangan, and relying on varied forms of subsistence, the civilisation engaged robustly in crafts production and wide-ranging trade.[86] During the period 2000–500 BCE, many regions of the subcontinent transitioned from the Chalcolithic cultures to the Iron Age ones.[88] The Vedas, the oldest scriptures associated with Hinduism,[89] were composed during this period,[90] and historians have analysed these to posit a Vedic culture in the Punjab region and the upper Gangetic Plain.[88] Most historians also consider this period to have encompassed several waves of Indo-Aryan migration into the subcontinent from the north-west.[89] The caste system, which created a hierarchy of priests, warriors, and free peasants, but which excluded indigenous peoples by labelling their occupations impure, arose during this period.[91] On the Deccan Plateau, archaeological evidence from this period suggests the existence of a chiefdom stage of political organisation.[88] In South India, a progression to sedentary life is indicated by the large number of megalithic monuments dating from this period,[92] as well as by nearby traces of agriculture, irrigation tanks, and craft traditions.[92]Learn how to implement Angular 19 routing without modules using standalone components. By 55,000 years ago, the first modern humans, or Homo sapiens, had arrived on the Indian subcontinent from Africa.[26][27][28] The earliest known modern human remains in South Asia date to about 30,000 years ago.[26] After 6500 BCE, evidence for domestication of food crops and animals, construction of permanent structures, and storage of agricultural surplus appeared in Mehrgarh and other sites in Balochistan, Pakistan.[84] These gradually developed into the Indus Valley Civilisation,[85][84] the first urban culture in South Asia,[86] which flourished during 2500–1900 BCE in Pakistan and western India.[87] Centred around cities such as Mohenjo-daro, Harappa, Dholavira, and Kalibangan, and relying on varied forms of subsistence, the civilisation engaged robustly in crafts production and wide-ranging trade.[86] During the period 2000–500 BCE, many regions of the subcontinent transitioned from the Chalcolithic cultures to the Iron Age ones.[88] The Vedas, the oldest scriptures associated with Hinduism,[89] were composed during this period,[90] and historians have analysed these to posit a Vedic culture in the Punjab region and the upper Gangetic Plain.[88] Most historians also consider this period to have encompassed several waves of Indo-Aryan migration into the subcontinent from the north-west.[89] The caste system, which created a hierarchy of priests, warriors, and free peasants, but which excluded indigenous peoples by labelling their occupations impure, arose during this period.[91] On the Deccan Plateau, archaeological evidence from this period suggests the existence of a chiefdom stage of political organisation.[88] In South India, a progression to sedentary life is indicated by the large number of megalithic monuments dating from this period,[92] as well as by nearby traces of agriculture, irrigation tanks, and craft traditions.[92]Learn how to implement Angular 19 routing without modules using standalone components. ",
+    "author": "Sudhanshu Kumar",
+    "date": "2025-06-10"
+  },
+  {
+    "id": 2,
+    "slug": "json-driven-article-pages",
+    "title": "How to Build JSON-Driven Article Pages in Angular",
+    "summary": "This article shows how to serve static article data from a JSON file and render it in a two-pane layout.",
+    "author": "Sudhanshu Kumar",
+    "date": "2025-06-11"
+  },
+  {
+    "id": 3,
+    "slug": "dynamic-vs-static-content",
+    "title": "When to Use Static vs. Dynamic Content in Web Development",
+    "summary": "Understand the pros and cons of static vs dynamic rendering for modern web apps.",
+    "author": "Sudhanshu Kumar",
+    "date": "2025-06-12"
+  }
+]

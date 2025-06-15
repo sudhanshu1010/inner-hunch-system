@@ -1,0 +1,15 @@
+.articles-list-main-container {
+  display: flex;
+  gap: 20px;
+}
+
+.left-pane {
+  width: 30%;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.right-pane {
+  width: 70%;
+  padding: 1rem;
+}
