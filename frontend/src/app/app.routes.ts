@@ -1,19 +1,26 @@
 import { Routes } from '@angular/router';
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
-import { ArticleDetailComponent } from './components/article-detail/article-detail.component';
-import { ArticleContainerComponent } from './components/article-container/article-container.component';
-import { ArticleOverviewComponent } from './components/article-overview/article-overview.component';
+import { ArticlesContainerComponent } from './components/articles-container/articles-container.component';
+import { ArticlesDetailComponent } from './components/articles-detail/articles-detail.component';
+import { ArticlesListComponent } from './components/articles-list/articles-list.component';
 
 export const routes: Routes = [
-    { path: '', component: ComingSoonComponent }, // Home page
-    { 
-        path: 'articles', 
-        component: ArticleContainerComponent, 
-        children: [
-            { path: '', component: ArticleOverviewComponent},
-            { path: ':slug', component: ArticleDetailComponent}
-        ]
-    },
-    { path: '', redirectTo: 'articles', pathMatch: 'full' },
-    { path: '**', redirectTo: '' } // fallback
+    // { path: '', component: ComingSoonComponent },
+    // { 
+    //     path: 'articles', 
+    //     component: ArticlesContainerComponent, 
+    //     children: [
+    //         { path: '', component: ArticlesListComponent},
+    //         { path: ':slug', component: ArticlesDetailComponent}
+    //     ]
+    // },
+    // { path: '', redirectTo: 'articles', pathMatch: 'full' },
+    // { path: '**', redirectTo: '' }
+
+
+    { path: '', redirectTo: 'coming-soon', pathMatch: 'full' },
+    { path: 'coming-soon', component: ComingSoonComponent },
+    { path: 'articles', component: ArticlesContainerComponent },
+    { path: 'articles/:slug', component: ArticlesContainerComponent },
+    { path: '**', redirectTo: 'coming-soon' }
 ];

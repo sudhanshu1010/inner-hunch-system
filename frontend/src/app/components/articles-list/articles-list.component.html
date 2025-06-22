@@ -1,0 +1,10 @@
+<div class="articles-list-main-container">
+    <h3>Articles</h3>
+    <div class="articles-list">
+        <ul>
+            <li *ngFor="let article of articles" (click)="selectArticle(article)">
+                {{ article.title }}
+            </li>
+        </ul> 
+    </div>
+</div>

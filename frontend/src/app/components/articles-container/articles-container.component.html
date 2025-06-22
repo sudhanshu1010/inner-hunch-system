@@ -1,0 +1,9 @@
+<div class="main-container">
+    <div class="navbar-container">
+        <app-navbar></app-navbar>
+    </div>
+    <div class="articles-main-container">
+        <app-articles-list  [slugFromUrl]="slugFromUrl" (articleSelected)="onArticleSelected($event)"></app-articles-list>
+        <app-articles-detail [article]="selectedArticle"></app-articles-detail>
+    </div>
+</div>

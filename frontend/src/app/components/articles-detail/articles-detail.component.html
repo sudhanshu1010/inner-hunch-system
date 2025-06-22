@@ -1,0 +1,13 @@
+<div class="articles-details-main-container">
+    <div class="details">
+        <ng-container *ngIf="article; else noSelection">
+            <h2>{{ article.title }}</h2>
+            <p><strong>Author:</strong> {{ article.author }}</p>
+            <p><strong>Tags: </strong> <span *ngFor="let tag of article.tags">{{ tag }} </span></p>
+            <div class="article-summary" [innerHTML]="article.summary"></div>
+        </ng-container>
+        <ng-template #noSelection>
+            <p>Select an article to view details.</p>
+        </ng-template>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+.articles-details-main-container {
+    width: 73vw;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-shadow: var(--app-box-shadow);
+    background-color: var( --app-container-bg);
+}
+
+.details h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.details p {
+    font-size: 12px;
+}
+
+.article-summary {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,29 @@
+.articles-list-main-container {
+    width: 25vw;
+    height: 100%;
+    background-color: var( --app-container-bg);
+    box-shadow: var(--app-box-shadow);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.articles-list-main-container h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: grey;
+    font-weight: 400;
+    letter-spacing: 1px; 
+}
+
+.articles-list ul li {
+    line-height: 3px;
+    color: rgb(92, 92, 92);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.articles-list ul li:hover {
+    color: black;
+}
