@@ -1,4 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
-    "java.configuration.maven.userSettings": "C:\\Users\\Sudhanshu.Kumar\\.m2\\settings_ihsystem_vscode.xml"
+    "java.configuration.maven.userSettings": "C:\\Users\\Sudhanshu.Kumar\\.m2\\settings_ihsystem_vscode.xml",
+    "java.compile.nullAnalysis.mode": "disabled"
 }
