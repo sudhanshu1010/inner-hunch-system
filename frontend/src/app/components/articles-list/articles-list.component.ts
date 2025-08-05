@@ -39,11 +39,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ArticlesService } from '../articles.service';
- import { CommonModule } from '@angular/common';
+import { CommonModule } from '@angular/common';
+import { FooterComponent } from '../footer/footer.component';
+
 
 @Component({
   selector: 'app-articles-list',
-  imports: [CommonModule],
+  imports: [CommonModule, FooterComponent],
   templateUrl: './articles-list.component.html',
   styleUrl: './articles-list.component.css'
 })
