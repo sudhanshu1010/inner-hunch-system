@@ -35,3 +35,13 @@ body {
     border: 1px solid var(--app-lightGreen-color);
     color: var(--app-lightGreen-color);
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+    border-bottom: 1px solid #eee;
+    backdrop-filter: blur(10px);
+}

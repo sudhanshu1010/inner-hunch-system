@@ -88,14 +88,7 @@ body {
   line-height: 1.6;
   background-color: #fdfdfd;
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: white;
-  border-bottom: 1px solid #eee;
-}
+
 .logo {
   font-weight: bold;
   font-size: 24px;
