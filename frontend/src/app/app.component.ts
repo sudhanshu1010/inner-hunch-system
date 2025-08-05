@@ -7,7 +7,7 @@ import { FeedComponent } from './components/feed/feed.component';
 
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
 import { RouterModule } from '@angular/router';
-import { ArticlesContainerComponent } from './components/articles-container/articles-container.component';
+//import { ArticlesContainerComponent } from './components/articles-container/articles-container.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +19,7 @@ import { ArticlesContainerComponent } from './components/articles-container/arti
     ComingSoonComponent,
     FeedComponent,
     RouterModule,
-    ArticlesContainerComponent
+    //ArticlesContainerComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

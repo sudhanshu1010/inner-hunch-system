@@ -1,12 +1,26 @@
-.articles-details-main-container {
-    width: 73vw;
+.article-detail-container {
     height: 100%;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 18rem;
     overflow-y: scroll;
     border-radius: 10px;
     box-shadow: var(--app-box-shadow);
     background-color: var( --app-container-bg);
+    font-family: 'Poppins', sans-serif;
+}
+
+.article-detail-container img {
+    height: auto;
+    width: 650px;
+    margin-bottom: 20px;
+}
+
+.article-content {
+    font-size: 14px;
+}
+
+.article-detail-container p {
+    font-size: 12px;
 }
 
 .details h2 {
@@ -17,9 +31,8 @@
     font-size: 12px;
 }
 
-.article-summary {
-    margin-top: 20px;
-    font-size: 14px;
-    color: rgb(92, 92, 92);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.article-meta-details {
+    border-top: 1px solid lightgrey;
+    margin-top: 3rem;
+    padding: 20px 0;
 }
