@@ -1,4 +1,4 @@
-<div class="articles-details-main-container">
+<!-- <div class="articles-details-main-container">
     <div class="details">
         <ng-container *ngIf="article; else noSelection">
             <h2>{{ article.title }}</h2>
@@ -10,4 +10,17 @@
             <p>Select an article to view details.</p>
         </ng-template>
     </div>
+</div> -->
+
+<div class="article-detail-container" *ngIf="article">
+  <h1>{{ article.title }}</h1>
+  <p><b>Author:</b> {{article.author}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Reading Time: </b> {{article.minutes}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Date: </b>{{article.date}}</p>
+  <img [src]="article.image" alt="{{ article.title }}">
+  <div class="article-content" [innerHTML]="article.content"></div>
+  <!-- <p>{{ article.content }}</p> -->
+
+  <div class="article-meta-details">
+    <p><b>Comments:</b> {{article.author}}</p>
+    <p><b>Hugs:</b> {{article.date}}</p>
+  </div>
 </div>

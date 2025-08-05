@@ -1,4 +1,4 @@
-<div class="articles-list-main-container">
+<!-- <div class="articles-list-main-container">
     <h3>Articles</h3>
     <div class="articles-list">
         <ul>
@@ -7,4 +7,14 @@
             </li>
         </ul> 
     </div>
+</div> -->
+
+<div class="articles-list-container">
+  <div class="card" *ngFor="let article of articles">
+    <img [src]="article.image" alt="{{ article.title }}">
+    <h2>{{ article.title }}</h2>
+    <p>{{ article.summary }}</p>
+    <p>Read: {{ article.minutes }}</p>
+    <button class="ih-primary-btn" (click)="viewArticle(article.slug)">Read More</button>
+  </div>
 </div>
