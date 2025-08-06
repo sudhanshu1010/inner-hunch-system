@@ -11,6 +11,13 @@
     --app-lightgrey: rgb(230, 230, 230);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -41,7 +48,15 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: white;
+    background: rgba(255, 255, 255, 0.4);
     border-bottom: 1px solid #eee;
     backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: var(--app-box-shadow);
+
+    position: sticky;
+    width: 98%;
+    left: 50%;
+    top: 2%;
+    transform: translateX(-1%);
 }
