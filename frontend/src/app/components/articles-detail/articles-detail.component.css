@@ -1,10 +1,9 @@
 .article-detail-main-container {
-    height: 85vh;
-    width: 100%;
+    height: 100%;
 }
 
 .article-banner-container {
-    height: 100%;
+    height: 85vh;
     width: auto;
     position: relative;
 }

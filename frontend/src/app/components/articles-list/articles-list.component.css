@@ -1,32 +1,3 @@
-/* .articles-list-main-container {
-    width: 25vw;
-    height: 100%;
-    background-color: var( --app-container-bg);
-    box-shadow: var(--app-box-shadow);
-    box-sizing: border-box;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.articles-list-main-container h3 {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    color: grey;
-    font-weight: 400;
-    letter-spacing: 1px; 
-}
-
-.articles-list ul li {
-    line-height: 3px;
-    color: rgb(92, 92, 92);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    cursor: pointer;
-}
-
-.articles-list ul li:hover {
-    color: black;
-} */
 
 .articles-list-container {
   display: flex;
@@ -39,10 +10,6 @@
 .card {
   width: 300px;
   border: 1px solid #ddd;
-  /* border-radius: 10px; */
-  /* overflow: hidden; */
-  /* text-align: center; */
-  /* padding: 0 0 10px 0; */
   background: #fff;
   font-family: 'Poppins', sans-serif;
   opacity: .8;
@@ -53,7 +20,6 @@
   width: 100%;
   height: 160px;
   object-fit: cover;
-  /* border-radius: 8px; */
 }
 
 .article-details-container {
@@ -68,6 +34,7 @@
 .card p {
   font-size: 0.9rem;
   color: #555;
+  margin-top: 10px;
 }
 
 .articles-list-container .card:hover {
@@ -78,7 +45,6 @@
 
 .article-image-container {
   border-radius: 10px;
-  /* overflow: hidden; */
 }
 
 .card:hover>img {
