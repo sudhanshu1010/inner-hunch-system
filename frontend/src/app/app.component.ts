@@ -18,7 +18,7 @@ import { RouterModule } from '@angular/router';
     ComingSoonComponent,
     FeedComponent,
     RouterModule,
-  ],
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
