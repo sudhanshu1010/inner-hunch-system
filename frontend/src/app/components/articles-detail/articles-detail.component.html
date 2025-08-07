@@ -1,26 +1,26 @@
-<!-- <div class="articles-details-main-container">
-    <div class="details">
-        <ng-container *ngIf="article; else noSelection">
-            <h2>{{ article.title }}</h2>
-            <p><strong>Author:</strong> {{ article.author }}</p>
-            <p><strong>Tags: </strong> <span *ngFor="let tag of article.tags">{{ tag }} </span></p>
-            <div class="article-summary" [innerHTML]="article.summary"></div>
-        </ng-container>
-        <ng-template #noSelection>
-            <p>Select an article to view details.</p>
-        </ng-template>
+<app-navbar></app-navbar>
+
+<section class="article-detail-main-container">
+  <div class="article-banner-container">
+    <img [src]="article.image" alt="{{ article.title }}">
+    <div class="article-banner-meta-details">
+      <h1>{{article.title}}</h1>
+      <div class="meta-details">
+        <p>~ {{article.author}}</p>
+        <p>Read time: {{article.minutes}}</p>
+
+      </div>
     </div>
-</div> -->
-
-<div class="article-detail-container" *ngIf="article">
-  <h1>{{ article.title }}</h1>
-  <p><b>Author:</b> {{article.author}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Reading Time: </b> {{article.minutes}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Date: </b>{{article.date}}</p>
-  <img [src]="article.image" alt="{{ article.title }}">
-  <div class="article-content" [innerHTML]="article.content"></div>
-  <!-- <p>{{ article.content }}</p> -->
-
-  <div class="article-meta-details">
-    <p><b>Comments:</b> {{article.author}}</p>
-    <p><b>Hugs:</b> {{article.date}}</p>
   </div>
-</div>
+  <div class="article-details-container">
+    <div class="article-author-details">
+      <p>Hey there! I'm <b>{{article.author}}</b></p>
+      <p>{{article.authorBio}}</p>
+    </div>
+    <div class="article-content-container">
+      <div class="article-content" [innerHTML]="article.content"></div>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>
