@@ -1,6 +1,8 @@
 <app-navbar></app-navbar>
 
-<div class="page-heading-container">
+<app-pre-loader *ngIf="isLoading"></app-pre-loader>
+
+<div class="page-heading-container" *ngIf="!isLoading">
   <h1>Growth Chronicles</h1>
   <p>Chronicle your progress, embrace your potential</p>
 </div>
