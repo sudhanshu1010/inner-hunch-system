@@ -70,6 +70,7 @@ footer .copyright p {
 @media only screen and (max-width: 600px){
     footer {
         height: auto;
+        margin-top: 24px;
     }
 
     .links-main-container {
