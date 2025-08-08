@@ -10,6 +10,4 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './dashboard.component.css'
 })
 
-export class DashboardComponent {
-
-}
+export class DashboardComponent {}

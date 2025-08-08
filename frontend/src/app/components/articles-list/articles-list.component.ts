@@ -27,4 +27,3 @@ export class ArticlesListComponent implements OnInit {
     this.router.navigate(['/articles', slug]);
   }
 }
-

@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 
-<section class="article-detail-main-container">
+<section id="article-detail" class="article-detail-main-container">
   <div class="article-banner-container">
     <img [src]="article.image" alt="{{ article.title }}">
     <div class="article-banner-meta-details">
@@ -22,5 +22,7 @@
     </div>
   </div>
 </section>
+
+<app-progress-circle [progress]="scrollProgress"></app-progress-circle>
 
 <app-footer></app-footer>

@@ -10,6 +10,4 @@ import { FooterComponent } from '../footer/footer.component';
   templateUrl: './privacy-policy.component.html',
   styleUrl: './privacy-policy.component.css'
 })
-export class PrivacyPolicyComponent {
-
-}
+export class PrivacyPolicyComponent {}

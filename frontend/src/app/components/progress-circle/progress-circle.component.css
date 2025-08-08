@@ -1,0 +1,37 @@
+.progress-circle {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 100%;
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  z-index: 100;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 2.8;
+}
+
+.circle {
+  fill: none;
+  stroke: var(--app-lightGreen-color); /* Tailwind blue for example */
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.4s ease;
+}
+
+.percentage {
+  fill: #333;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+@media only screen and (max-width: 600px){
+  .progress-circle {
+    bottom: 10px;
+  }
+}

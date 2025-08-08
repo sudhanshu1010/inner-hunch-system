@@ -10,6 +10,4 @@ import { FooterComponent } from '../footer/footer.component';
   templateUrl: './about-us.component.html',
   styleUrl: './about-us.component.css'
 })
-export class AboutUsComponent {
-
-}
+export class AboutUsComponent {}

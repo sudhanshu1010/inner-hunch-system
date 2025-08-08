@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
   templateUrl: './feed.component.html',
   styleUrl: './feed.component.css'
 })
-export class FeedComponent {
-  
-}
+
+export class FeedComponent {}
