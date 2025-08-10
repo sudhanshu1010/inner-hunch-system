@@ -44,6 +44,22 @@ body {
   color: var(--app-lightGreen-color);
 }
 
+.ih-secondary-btn {
+  cursor: pointer;
+  background-color: none;
+  border: 1px solid var(--app-lightGreen-color);
+  color: var(--app-lightGreen-color);
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.ih-secondary-btn:hover {
+  background: var(--app-primary-btn-bg);
+  color: #fff;
+  border: 1px solid var(--app-primary-btn-bg);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
